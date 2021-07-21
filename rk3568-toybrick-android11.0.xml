@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://10.10.10.29:29418/android/" name="aosp" review="https://10.10.10.29"/>
-  <remote fetch="ssh://10.10.10.29:29418/android/" name="rk" review="https://10.10.10.29"/>
-  <remote fetch="ssh://10.10.10.29:29418/" name="rk29" review="https://10.10.10.29"/>
-  <remote fetch="ssh://git@10.10.10.78:2222/Android_pie_stable" name="rk78_mirror"/>
-  <remote fetch="ssh://git@10.10.10.29/" name="rk_legacy"/>
-  <remote fetch="ssh://git@10.10.10.10/smart/" name="smart"/>
-  <remote fetch="ssh://git@10.10.10.10/toybrick/" name="toybrick"/>
+  <remote fetch="git@github.com:aosp-mirror" name="aosp"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="rk"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="rk29"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="rk78_mirror"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="rk_legacy"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="smart"/>
+  <remote fetch="git@github.com:rockchip-toybrick" name="toybrick"/>
   
   <default remote="aosp" revision="refs/tags/android-11.0.0_r37" sync-j="4"/>
   
-  <project name="RKTools" remote="rk" revision="aec9ba12a52b0cc63043536e02bca15a0150d71e" upstream="rk33/mid/develop10.0"/>
-  <project groups="pdk-cw-fs,pdk" name="device/common" revision="6b398d7f47aae5d42d126c49f0879fa20d2ca93b" upstream="refs/tags/android-11.0.0_r37"/>
+  <!--<project name="RKTools" remote="rk" revision="aec9ba12a52b0cc63043536e02bca15a0150d71e" upstream="rk33/mid/develop10.0"/>-->
+  <!--<project groups="pdk-cw-fs,pdk" name="device/common" revision="6b398d7f47aae5d42d126c49f0879fa20d2ca93b" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="b13c00e79c8bc1b96b62a3fc78cee075395f6271" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/car" revision="aec096f7f9fe81243596aa31a1b14e1cf51d1a11" upstream="refs/tags/android-11.0.0_r37"/>
@@ -28,16 +28,16 @@
   <project groups="device,pdk" name="device/generic/uml" revision="038d476bc08b77477f039d44a68117b6e24cca3e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/x86" revision="7a73a1f8e9fd691cb8f45aa9de303f3c39c3837a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv" revision="68c3592edaf1a0849a3a199b1a1f805093c783a9" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="device/rockchip/common" remote="toybrick" revision="65f22c895a15617262f5038abdf42c7b66bd2b56" upstream="develop-11.0"/>
-  <project name="device/rockchip/rk356x" remote="toybrick" revision="2022c5bde300c3ce86dce62db3aa6ea428b223bf" upstream="develop"/>
-  <project groups="pdk" name="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="docs/android" path="RKDocs/android" remote="rk" revision="665b4cb44f348e30787f2b119fe30b6016adcdb6" upstream="rk33/mid/android-11.0"/>
-  <project name="docs/common" path="RKDocs/common" remote="rk" revision="f24b276981291737cfd1b42517ce1b5d0f184add" upstream="rk33/mid/android-8.1"/>
-  <project groups="pdk" name="hardware/rockchip/camera" remote="smart" revision="9bc663bdc3782118f4c10923a900e43b086e2477" upstream="develop"/>
-  <project name="hardware/rockchip/drmservice" remote="toybrick" revision="e0719d0da6c2be466d42ef0d2bde3a4eb0fa2dae" upstream="develop"/>
-  <project name="kernel" remote="toybrick" revision="fb62bab4794b493124ec2d83f73d1b38381e428e" upstream="develop-4.19"/>
-  <project name="kernel/configs" remote="rk" revision="e7d930cd895b07746cc1755824cd619ac0ee71ea" upstream="rk33/mid/11.0/develop">
+  <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv" revision="68c3592edaf1a0849a3a199b1a1f805093c783a9" upstream="refs/tags/android-11.0.0_r37"/>-->
+  <project name="device_rockchip_common" path="device/rockchip/common" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="device_rockchip_rk356x" path="device/rockchip/rk356x" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <!--<project groups="pdk" name="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34" upstream="refs/tags/android-11.0.0_r37"/>-->
+  <!--<project name="docs/android" path="RKDocs/android" remote="rk" revision="665b4cb44f348e30787f2b119fe30b6016adcdb6" upstream="rk33/mid/android-11.0"/>
+  <project name="docs/common" path="RKDocs/common" remote="rk" revision="f24b276981291737cfd1b42517ce1b5d0f184add" upstream="rk33/mid/android-8.1"/>-->
+  <project name="hardware_rockchip_camera" path="hardware/rockchip/camera" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="hardware_rockchip_drmservice" path="hardware/rockchip/drmservice" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="kernel" remote="toybrick" revision="develop-4.19" upstream="develop-4.19"/>
+  <project name="kernel_configs" path="kernel/configs" remote="toybrick" revision="develop-11.0" upstream="develop-11.0">
     <linkfile dest="kernel/kernel/configs/android-11.config" src="rockchip/android-11.config"/>
     <linkfile dest="kernel/kernel/configs/android-11-go.config" src="rockchip/android-11-go.config"/>
     <linkfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
@@ -47,15 +47,15 @@
     <linkfile dest="kernel/kernel/configs/rk3399.config" src="rockchip/rk3399.config"/>
     <linkfile dest="kernel/kernel/configs/non_debuggable.config" src="r/android-4.19/non_debuggable.config"/>
   </project>
-  <project groups="vts,pdk" name="kernel/tests" revision="0b69217c71fdb04e6e2dea74443ebe3e4391104a" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="linux/linux-rga" path="hardware/rockchip/librga" remote="rk29" revision="0598712238aa7f553879a0823c8bdd69bdd1f186" upstream="im2d"/>
-  <project name="platform/art" path="art" remote="rk" revision="1e15e91f987acc225bd6a791c88729dbd4162d65" upstream="android-11-sec-2021-0605"/>
-  <project name="platform/bionic" path="bionic" remote="rk" revision="def5e3d41492c34e417084272d6373608adf9a11" upstream="rk33/mid/11.0/develop"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="5d990c7464b25558152fcb43c5645f2e1049a5e3" upstream="rk33/mid/11.0/develop"/>
-  <project name="platform/bootable/recovery/mtd_utils" path="bootable/recovery/mtdutils" remote="rk" revision="9fc87c1ee151af1cc4bef5d6daa85ff571621ba6" upstream="rk33/mid/11.0/develop"/>
-  <project name="platform/bootable/recovery/rk_update" path="bootable/recovery/rkupdate" remote="rk" revision="469c3dae47b95c83f90dca06e1672617a727098b" upstream="rk33/mid/11.0/develop"/>
-  <project name="platform/bootable/recovery/rk_utility" path="bootable/recovery/rkutility" remote="rk" revision="8d5f8d4a56559a342906c4e998f8fa4a5336fad5" upstream="rk33/mid/11.0/develop"/>
-  <project groups="pdk" name="platform/build" path="build/make" remote="rk" revision="3ef2f9db9fbf69c78a7663da0aca62a7a4411559" upstream="rk33/mid/11.0/develop">
+  <!--<project groups="vts,pdk" name="kernel/tests" revision="0b69217c71fdb04e6e2dea74443ebe3e4391104a" upstream="refs/tags/android-11.0.0_r37"/>-->
+  <project name="hardware_rockchip_librga" path="hardware/rockchip/librga" remote="toybrick" revision="develop-11.0" upstream="im2d"/>
+  <project name="platform_art" path="art" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_bionic" path="bionic" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_bootable_recovery_mtd_utils" path="bootable/recovery/mtdutils" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_bootable_recovery_rk_update" path="bootable/recovery/rkupdate" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_bootable_recovery_rk_utility" path="bootable/recovery/rkutility" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk" name="platform_build" path="build/make" remote="toybrick" revision="develop-11.0" upstream="develop-11.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -64,19 +64,21 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="ea7e0bfc0d4586e2046cd328a4d2e6e694ed783c" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" remote="rk" revision="d88bafc576a9181a169f1d30cf821242aa8118ba" upstream="rk33/mid/11.0/develop">
+  <project groups="pdk,tradefed" name="platform_build_blueprint" path="build/blueprint" remote="toybrick" revision="develop-11.0" upstream="refs/tags/android-11.0.0_r37"/>
+  <project groups="pdk,tradefed" name="platform_build_soong" path="build/soong" remote="toybrick" revision="develop-11.0" upstream="develop-11.0">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="88cb8ac742cb42fd00470cca6eab4b24e8021850" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="7aca361e97324d42b1074b4eaf8ac89ad8b37333" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="11efef7a00287fb011f11348ff9fee33c7e1af3c" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="developers,pdk" name="platform/developers/build" path="developers/build" revision="b95e2339e3040470dbe7096f59b77c9cc1b776ff" upstream="refs/tags/android-11.0.0_r37"/>
+  <project groups="pdk" name="platform_compatibility_cdd" path="compatibility/cdd" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform_cts" path="cts" remote="toybrick" revision="develop-11.0" upstream="refs/tags/android-11.0.0_r37"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform_dalvik" path="dalvik" revision="11efef7a00287fb011f11348ff9fee33c7e1af3c" upstream="refs/tags/android-11.0.0_r37"/>
+  <!--<project groups="developers,pdk" name="platform/developers/build" path="developers/build" revision="b95e2339e3040470dbe7096f59b77c9cc1b776ff" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="developers" name="platform/developers/demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="developers" name="platform/developers/samples/android" path="developers/samples/android" revision="ca2402d8ebd333ffa0941a9baabe17eb365c28a7" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/development" path="development" remote="rk" revision="d16ac2bcaa428402da0739402a205b016d846bad" upstream="rk33/mid/11.0/develop"/>
-  <project groups="pdk" name="platform/external/FP16" path="external/FP16" revision="4039a7ffa4bbee623e1e616efef9a387b2a8b47d" upstream="refs/tags/android-11.0.0_r37"/>
+  <project groups="developers" name="platform/developers/samples/android" path="developers/samples/android" revision="ca2402d8ebd333ffa0941a9baabe17eb365c28a7" upstream="refs/tags/android-11.0.0_r37"/>-->
+  <project name="platform_development" path="development" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk" name="platform_externals" path="external" revision="develop-11.0" upstream="develop-11.0"/>
+
+  <!--<project groups="pdk" name="platform/external/FP16" path="external/FP16" revision="4039a7ffa4bbee623e1e616efef9a387b2a8b47d" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/FXdiv" path="external/FXdiv" revision="c577b94ed81e89bb905b7cbba8043480561afda6" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/ImageMagick" path="external/ImageMagick" revision="46696775cff41245ab4a23a7c89f6d399543852c" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="5f72eacd832176138d336c45f152a383530f081c" upstream="refs/tags/android-11.0.0_r37"/>
@@ -435,7 +437,8 @@
   <project groups="vts,projectarch,pdk" name="platform/external/yapf" path="external/yapf" revision="45d923c40605a71867d174abcd04a1db76945651" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="1a9b432817192342bbfb5a389058a45eea9f816c" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="4e42ccafb7c571f502a23177bca2d3cfc209035c" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="65193280855e46d11bf5b44f1a7e49ec0c7bd57e" upstream="refs/tags/android-11.0.0_r37"/>
+  <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="65193280855e46d11bf5b44f1a7e49ec0c7bd57e" upstream="refs/tags/android-11.0.0_r37"/>-->
+
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="cc300b448d3b8c7f8b0b54eb2003cef95dec1d63" upstream="rk33/mid/11.0/develop"/>
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="64d8878e8efcef45d443193de93dc80f8226eba3" upstream="rk33/mid/11.0/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="fff6169b647b9c5d60350923019e8d60449a3652" upstream="refs/tags/android-11.0.0_r37"/>
