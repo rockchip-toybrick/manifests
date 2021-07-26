@@ -112,7 +112,7 @@
   <project groups="pdk" name="platform/external/catch2" path="external/catch2" revision="dba03cace0e298b6a690c00ccd99848193c2e0f9" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/cblas" path="external/cblas" revision="d82c5f4ae14b2a5468303985070f7dadc15d4094" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/cbor-java" path="external/cbor-java" revision="f81e576298790c97498311e99a0b0b34653c3dd8" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="rk" revision="42062e08ec8003f30755a19f0644b6cc9c5b414c" upstream="android-11-sec-2021-0605"/>
+  <!--<project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="rk" revision="42062e08ec8003f30755a19f0644b6cc9c5b414c" upstream="android-11-sec-2021-0605"/>-->
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" revision="e524766cad26d677a9a1ec8c00c512d4cac2cf5e" upstream="refs/tags/android-11.0.0_r37"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="7a2388596635621f1c70fc1c7bc288435ba1dcf7" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang" revision="0a1c53a5d295109bd4702ad13c0f2a5510ca1b26" upstream="refs/tags/android-11.0.0_r37"/>
@@ -143,7 +143,7 @@
   <project groups="pdk" name="platform/external/drrickorang" path="external/drrickorang" revision="d75961c2b57446c5201e64707bd8146fc925e566" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/dtc" path="external/dtc" revision="c7db36e4961918d5f0715984f6d28484e635ece3" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/dynamic_depth" path="external/dynamic_depth" revision="82589497aa60f574ef747e82935fd6f3cad8109a" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="rk" revision="aaaf47bec40bec492db71afb5cda9445e304df25" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/easymock" path="external/easymock" revision="afd503b419c6c25d6804e137f2642217f10ee980" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/eigen" path="external/eigen" revision="d2f82e2d6fc7f1dabc1af902c4515d74330877c6" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/elfutils" path="external/elfutils" revision="5f92182e496a66149ba09c92fe497135643663f5" upstream="refs/tags/android-11.0.0_r37"/>
@@ -202,7 +202,7 @@
   <project groups="pdk" name="platform/external/igt-gpu-tools" path="external/igt-gpu-tools" revision="cb3381988ec1617f3d794162410c54bc5521a8ed" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/image_io" path="external/image_io" revision="135f7c04ae98ce694efcfc6d9a0d2bc38f4c3653" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/ims" path="external/ims" revision="ecb6182595086a3657f7a5d4794984b2817fc71b" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk" name="platform/external/iperf3" path="external/iperf3" remote="rk" revision="1d57b845760133949f5d3a17938618a6635e18de" upstream="rk33/mid/10.0/develop"/>
+  <project groups="pdk" name="platform_external_iperf3" path="external/iperf3" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2" revision="359545a6aeec28a25a0ba59f71320489bedfeaa9" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="21841d18260f3247c0189c5157169c862632f0ec" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/iptables" path="external/iptables" revision="db325961118ca9c1b2179698d4c69b568b04470c" upstream="refs/tags/android-11.0.0_r37"/>
@@ -231,7 +231,7 @@
   <project groups="pdk" name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines" revision="ad50cea75fbf4cf484d5016efb8f1295d748c1e7" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/ksoap2" path="external/ksoap2" revision="35e0997508e99f0a5ca60de58a0f1a9df891698e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libaom" path="external/libaom" revision="e35b54d87231c56626f73f9d5d2146af6df35c8c" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/libavc" path="external/libavc" remote="rk" revision="29132eba8ca8e53ba4dbbcfd37614eba045269a2" upstream="android-11-sec-2021-0605"/>
+  <project name="platform/external/libavc" path="external/libavc" remote="aosp" revision="29132eba8ca8e53ba4dbbcfd37614eba045269a2" upstream="android-11-sec-2021-0605"/>
   <project groups="pdk" name="platform/external/libbackup" path="external/libbackup" revision="2141bb48d626369da6313aac930939b8faa83226" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libbrillo" path="external/libbrillo" revision="9e260fa59a43bc04701216c51053922d445fefd8" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libcap" path="external/libcap" revision="7e0408acfb03a3119541557b82ba3f8d28d5e78e" upstream="refs/tags/android-11.0.0_r37"/>
@@ -242,7 +242,7 @@
   <project groups="pdk" name="platform/external/libcxxabi" path="external/libcxxabi" revision="e3c7223a009074e8d6b57d56757851ede7d8ab07" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libdaemon" path="external/libdaemon" revision="433dd14cb58a66737e158ad1331c02162a80f43f" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libdivsufsort" path="external/libdivsufsort" revision="abb3a16c4986c5f7dda62580c4f53c1930d4d1b9" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/libdrm" path="external/libdrm" remote="rk" revision="b68d87a4c9bc1deef2c58ccffcb5cbdb63d978ed" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform_external_libdrm" path="external/libdrm" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/libepoxy" path="external/libepoxy" revision="8f53ca38c16e91d11888e129069443d795f37fdb" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libese" path="external/libese" revision="127c3cd569dcb5fe47d3b420086d30853d0361da" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libevent" path="external/libevent" revision="e2ad30a2c0dd53cef7fd37e5336407938b64da26" upstream="refs/tags/android-11.0.0_r37"/>
@@ -378,7 +378,7 @@
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" revision="a9a48a4ed3826e4e1fe33cf0642febe0172e8890" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" revision="ee39ac64341b0c3d85a1299973988285f2f350de" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/shflags" path="external/shflags" revision="6d6812d19da2747fdbee25421af1bd3583d75bf0" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" remote="rk" revision="d9fd7a626b02b8f3ff4f3ce7ce61a2319c92849a" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk,qcom_msm8x26" name="platform_external_skia" path="external/skia" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project clone-depth="1" groups="cts,pdk" name="platform/external/skqp" path="external/skqp" revision="21e70f4e18c18e2e7049abc7e3b4974798cc017c" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/sl4a" path="external/sl4a" revision="6c77ff7f51d1175e94fbb03af86e5a06ac519f82" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/slf4j" path="external/slf4j" revision="4cd3f35de15e9270f3d5822c3f04a7c2b02189ea" upstream="refs/tags/android-11.0.0_r37"/>
@@ -386,7 +386,7 @@
   <project groups="pdk" name="platform/external/snakeyaml" path="external/snakeyaml" revision="5df2ff5ed7c5eebfaff21a8299019e21f648b0f6" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/sonic" path="external/sonic" revision="043398f5c456fc78cd8f5f2057e3a2e767eebfca" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" revision="291ac995c4d359bc60d44da01758ef3ea9ab913d" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/speex" path="external/speex" remote="rk" revision="1e66f39d05bbb44bf62352561caa93a76d420bde" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform_external_speex" path="external/speex" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" revision="1a3f0b9b4c09b67f6e9a2c2db940cfd490928c44" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" revision="26929f59a759b06cb01c539ba45630958a8e3a76" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace" revision="f1cb53780e02e7a9112b4aa53a132cae53a1fa15" upstream="refs/tags/android-11.0.0_r37"/>
@@ -397,7 +397,7 @@
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump" revision="f50b8b00f4d40eaaeb7e0e3a398d441d27e63d54" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/tensorflow" path="external/tensorflow" revision="c3d31c8f43e0c8ca62cd84ecdf3fe2d06f0bdf44" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/testng" path="external/testng" revision="74aac3e648e789b5f462bd42debc34a16507dbad" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" remote="rk" revision="7996f3d3930deff80bbd98b24f54d905d7506ae2" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk" name="platform_external_tinyalsa" path="external/tinyalsa" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" revision="58529d0f1086e737c8055fef387f7791c94bffbd" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" revision="30b01f5b6ece6c5204d46f6b2ea90745dbc69826" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" revision="1b7e9f45b916fdafad6a450244d6d30735b075db" upstream="refs/tags/android-11.0.0_r37"/>
@@ -410,7 +410,7 @@
   <project groups="pdk" name="platform/external/unicode" path="external/unicode" revision="e6d48226be7fee655a30c8dd7847dfb5d02153d8" upstream="refs/tags/android-11.0.0_r37"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine" revision="37a0007888efb1fc8b4d360d4e0560c03e55e5eb" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="25c3c32f40307e211630744ca03545c5bcaeb5fa" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/v8" path="external/v8" remote="rk" revision="6df6c8a638602fa99c1a59d629b28125a55d4c66" upstream="android-11-sec-2021-0605"/>
+  <project name="platform/external/v8" path="external/v8" remote="aosp" revision="6df6c8a638602fa99c1a59d629b28125a55d4c66" upstream="android-11-sec-2021-0605"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference" revision="df6d6b6e5280520b096fb1f565b758948bc872ee" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/virglrenderer" path="external/virglrenderer" revision="420c9e3d834eb6698c821a6d023a0dad63cc8b7e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/vixl" path="external/vixl" revision="c150fd7455f6f3520efe35ac6b24854ecc5b3a70" upstream="refs/tags/android-11.0.0_r37"/>
@@ -423,7 +423,7 @@
   <project groups="pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="0023658c1130d5bfe1b55ec9bb758c713a6216d4" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="5b8ffe46a0fbf17592104c3a7d85a1074b868bcc" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="661e84967bb2600427cb65715caeeba112b94244" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="667416e05bd767fa430c044d7d1206a063f87eb8" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="667416e05bd767fa430c044d7d1206a063f87eb8" upstream="rk33/mid/11.0/develop"/>
   <project groups="pdk" name="platform/external/wycheproof" path="external/wycheproof" revision="1b808efc7c903b0eaae0da8f6788f55513e4e339" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="44d7e4d00ef6da63a75bf3a4f9296872cc4d2ac1" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="51923a98b0af813e3db6a027d64471ee8710a4f2" upstream="refs/tags/android-11.0.0_r37"/>
@@ -651,7 +651,7 @@
   <project groups="pdk" name="platform/system/apex" path="system/apex" revision="22613b7917e90d3f75cbd107bc49f82895381388" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/bpf" path="system/bpf" revision="81b26a8a969c9d25676f90597079b7ab8f8576b4" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/bpfprogs" path="system/bpfprogs" revision="df5007df690cd26579d0c47e544b6dc91a38dfcd" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/bt" path="system/bt" remote="rk" revision="93910724e7a99f8723317dfd8485462be10aab28" upstream="android-11-sec-2021-0605"/>
+  <project name="platform/system/bt" path="system/bt" remote="aosp" revision="93910724e7a99f8723317dfd8485462be10aab28" upstream="android-11-sec-2021-0605"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="71863ee86e948f9c44ea00d540507147af07b15e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="536dd3ea4cb49647d72b678a7f365f13b7d97d98" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="6636cc1341a55995e1e1f673c9e60c6b5af00410" upstream="refs/tags/android-11.0.0_r37"/>
@@ -753,7 +753,7 @@
   <project name="rk_hardware_rk29_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_rk29_fastbootd" path="hardware/rockchip/fastbootd" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_rk29_gatekeeper" path="hardware/rockchip/gatekeeper" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
-  <project name="rk_hardware_rk29_hdmicec" path="hardware/rockchip/hdmicec" remote="tobrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_hdmicec" path="hardware/rockchip/hdmicec" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_rk29_hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_rk29_jpeghw" path="hardware/rockchip/jpeghw" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_rk29_keymaster4" path="hardware/rockchip/keymaster4" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
