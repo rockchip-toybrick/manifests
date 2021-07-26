@@ -509,21 +509,20 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="0b5fba26e43befcd781d8330571bed4d9f1162da" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="58d1b4efa82576c2ce18361bf10b01a3ee9f543f" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
-
   <project groups="pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="d148d3a70242fc8d2975e83946f7b8b2927ab3e7" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="eb5f9ca7b8d8ff768a322a851148bcc0d8617cec" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="f54200d83880c1cc4d501e4cb5b4313eb7fc0b9a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="670e1636b464b4c7b0ec326a983408d75c2ca4ef" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="7746694ad487a322b50443c1e020d0067838048c" upstream="rk33/mid/9.0/develop"/>
+  <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ab14daba010c9306faa76b83bd3b2170e6055259" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="rk" revision="8f21d6de10534f7643fc4f3c4633dae7bef06125" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="2ceb86e2ed3397d17b208c224ff72297eb28cc1a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="f8003ae4221371387dad7626ad24b417ff3cdae0" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="rk" revision="3596335d874d84cb5d667d06f78d7e2cb42ff2bb" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="cebfa6261715dc8c934b473b7a2d1404545c3945" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="87b64112f37050b207a70f5ad26b6a8cccc80f05" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="cd5e0e37c14102d69baae4d98538d6c5f204f5a3" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="rk" revision="718379e3b244a0051b93ded2a70b2377634f1ea5" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="954665bfbf1a3190ce35ef10ed20b40da78b70d8" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="ad67ab3d3a3977f12b20db0a284831e5b780e2f2" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="ee2d2f15cb5458756c4a882c5a2cd9a77b8b1034" upstream="refs/tags/android-11.0.0_r37"/>
@@ -537,9 +536,9 @@
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="a3a5aae9e4e7bff5aab0ef006b6ac78d0dea80af" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="c7952bab7ab6127649d0f4e2d9d67f4af014fb82" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="57ba8db9d456de7ce36303676d5238021c96be50" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="ecfd7357fd6ec5bd796b3157e96a823a92fd3926" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="0d22308f11d386929ad26fb907bdb500849af4e5" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="73cdfb7a9ab55943fc7c2c731d9464dbf6c5ddca" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-fs" name="platform_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="f3d46ceeecd71c5555939f32643c18c78ae7909f" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="43e571fc1637cae6a3619aadb970d9ca4afdd308" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="7e569525970ce7585595508e435e4e9ced69c631" upstream="refs/tags/android-11.0.0_r37"/>
@@ -551,7 +550,7 @@
   <project groups="pdk" name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="ba88d76aa8c1123935bf82afbdaa03e2fdf5d462" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="8d6e7c5a842bc9a556fda899270bb38676ca08e0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="8545931fddb444f3e6efa330dd84187d8dfa24ed" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk" revision="f31558b8559fcc15924a9c7e7a021671a74e2c45" upstream="rk33/mid/11.0/develop"/>
+  <!--<project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk" revision="f31558b8559fcc15924a9c7e7a021671a74e2c45" upstream="rk33/mid/11.0/develop"/>-->
   <project name="platform/packages/apps/UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer" revision="d2894e3b45dcbd4bfed9cd482d51833b72853411" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="f1e69b45bde30a055d37260012df8e951bebf491" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="bf0caa8e017c396a6b14fe072a33b54e55a53477" upstream="refs/tags/android-11.0.0_r37"/>
@@ -566,7 +565,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/IPsec" path="packages/modules/IPsec" revision="3d5334773fb782232b63dd860615ddbccc37f815" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" revision="bf198f3182e53f3d1dc9d061f558656e59f5d4c8" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" revision="78b33ffc1f33060463b83bbbd8b9dbb161f82535" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" remote="rk" revision="ac20e73e2af22f9c0a6b0550035d59744a78d33f" upstream="rk33/mid/11.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/SdkExtensions" path="packages/modules/SdkExtensions" revision="c571e6f6702a630532f270cce5fe832a8ee71cdc" upstream="refs/tags/android-11.0.0_r37"/>
   <project name="platform/packages/modules/TestModule" path="packages/modules/TestModule" revision="3523a2f0f9b12d4e60374af63aae14f75a2b4c10" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/vndk" path="packages/modules/vndk" revision="9d2db0e4f7bd51b1627c4dc07dd9b93925e4f962" upstream="refs/tags/android-11.0.0_r37"/>
@@ -576,7 +575,7 @@
   <project groups="pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="3ed4fe1c4721b39d74af59e0c3e5c54f088b87aa" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="764e404dc209e0e6e121de5ee189aea3e59cb7d7" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="5c934c427a7b23f4496205dcd48271dc36b25b91" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="rk" revision="0e4ccdc331e2c173244cb35439372afa97b530c0" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="9c3b541b4357011de2047a2e24f92a63c6d8d8a0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="f29f73dfa90859041104f0a7b9256ee34ac43058" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="5d3d2780a3d52410a67be508bcd8d591f7cb2ef0" upstream="refs/tags/android-11.0.0_r37"/>
@@ -657,7 +656,7 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="536dd3ea4cb49647d72b678a7f365f13b7d97d98" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="6636cc1341a55995e1e1f673c9e60c6b5af00410" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="d96bd96c699461682699628ba6bf604bf36f011a" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/core" path="system/core" remote="rk" revision="f80701a9588b11c83d0906fa7adf6ca09a54b11b" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform/system/core" path="system/core" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="b35a59eb33bb335baddf367208f5c684b66d3c85" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="dd73a85fb461d6b6732fed1096ebd7b3e4619691" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="353bd5faa73121b77d7ca80ec3d71e0119898222" upstream="refs/tags/android-11.0.0_r37"/>
@@ -675,12 +674,12 @@
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf" revision="b200cfdb6e0a8109b69a9a583bd23f91e629e948" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/linkerconfig" path="system/linkerconfig" revision="38834333083f213d712b9e4e9b5de2b5b76c1c32" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="257b08782222c24ae6c85cc35854cdb2757e066d" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/memory/libion" path="system/memory/libion" remote="rk" revision="7fe188227619e36ca52b225dd0f65072737b2a96" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform/system/memory/libion" path="system/memory/libion" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo" revision="69298f797fdf0b580021befec2c4c6553fa4b5f0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/libmemtrack" path="system/memory/libmemtrack" revision="e3d7988449a9579bfced8a4fa8355de36ee95d64" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/libmemunreachable" path="system/memory/libmemunreachable" revision="0c0852b75771a8b36bbcb8c816d8658aa92b9b45" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/lmkd" path="system/memory/lmkd" revision="140385d3a0263d145ef46edd78dbd860c2eba912" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/netd" path="system/netd" remote="rk" revision="26a3a56f2b21b9024b842f16586a4abaa229abe5" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform/system/netd" path="system/netd" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="b9bb109ef20f689cf26db76036ef8a22ae6d0a3d" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/nvram" path="system/nvram" revision="559fb5ba33c4288d79545c7abdd6d7368c0a1ce0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="e5c1348c5b1e0b956ef25a11406cb3eb0a0b83b6" upstream="refs/tags/android-11.0.0_r37"/>
@@ -692,13 +691,13 @@
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl" revision="fda4a4a74979d58b3546a2258e98b48d7dbb6adc" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="8821c0cc83f080e85ecc5cba268d617259ce0e56" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/tools/mkbootimg" path="system/tools/mkbootimg" revision="220c3652339e6f0502a3337dfbdf24a7afee1915" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="f0fbd5e424f712ea33aaf6c4b270bd1106fe8c2f" upstream="develop">
+  <project name="platform_system_tools_release_tools" path="system/tools/release_tools" remote="toybrick" revision="develop-11.0" upstream="develop-11.0">
     <copyfile dest="restore_patches.sh" src="restore_patches.sh"/>
   </project>
   <project groups="pdk" name="platform/system/tools/sysprop" path="system/tools/sysprop" revision="6372fde5de60e3062c01f796b97820ea30c0de4e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/tools/xsdc" path="system/tools/xsdc" revision="0be301d6033204d4668b2c26f84fd851dd7cf068" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="c71939df6ae98204c94e141e79a33df217d568af" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/vold" path="system/vold" remote="rk" revision="18b369aee220b216ea3dd07f102e234388a73727" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform/system/vold" path="system/vold" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="platform/test/app_compat/csuite" path="test/app_compat/csuite" revision="5c86fc9b9b042528f9af6ea7c53c22f892ed3b2f" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="vts,projectarch,pdk" name="platform/test/framework" path="test/framework" revision="c44480ac572c0eeaded19fa1c70833fcac21bfd0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/test/mlts/benchmark" path="test/mlts/benchmark" revision="13abfc2f14d03f8e606528f42700f761667da302" upstream="refs/tags/android-11.0.0_r37"/>
@@ -739,59 +738,59 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="0ff7007d58dd912f7d5dca4178a9731494b31222" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="4a70b7b8a10119fe886bb009c634646a533f7db0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="b735f448e61c99f4c06101902ff76eee4e5496f1" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="rk/device/rockchip/rk312x" path="device/rockchip/rk3126c" remote="rk" revision="b054436d43de388eb88c8379050c83aaaebd6792" upstream="rk32/mid/11.0/develop"/>
+  <!--<project name="rk/device/rockchip/rk312x" path="device/rockchip/rk3126c" remote="rk" revision="b054436d43de388eb88c8379050c83aaaebd6792" upstream="rk32/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="16a8d126c8bf9fb8c6ed4c7f2ed20676fca848c5" upstream="rk32/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3326" path="device/rockchip/rk3326" remote="rk" revision="7ffda1ec5596faa9cb16c0cdc1b88cde7f6d3406" upstream="rk33/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3328" path="device/rockchip/rk3328" remote="rk" revision="6e131dc45e7ad524df539830d5ce93afd1b87779" upstream="rk33/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" remote="rk" revision="588642fa1a4dba5db81e8cdd4592ace66fb44fcf" upstream="rk33/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="0092ad80af324ec28d808a575927b552660d0035" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="6b47ad2607b5a3fad755bc78e9f0b527e4492e66" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" remote="rk" revision="f2ab37f3b6a70d260c6c567afba683c2f4f0e02d" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" remote="rk" revision="3aa88bd0a31d77d0f1c5735d836f09d556ac43d4" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" remote="rk" revision="548921439a3cb191c02d6dcfe64f9d654002cb94" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="d03e16000a6dea0f85a034362b0b9662eebdb2ff" upstream="rk33/mid/10.0/develop"/>
-  <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" remote="rk" revision="779c6fac58123a63dd7c764b5434a279c43a440e" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="rk" revision="1436f159219040c59bac5ba8bb28ebc30e5be36c" upstream="rk33/mid/develop/9.0"/>
-  <project name="rk/hardware/rk29/fastbootd" path="hardware/rockchip/fastbootd" remote="rk" revision="f3d98230ec7094e1f33adb9752030fd83a2c20a2" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/gatekeeper" path="hardware/rockchip/gatekeeper" remote="rk" revision="cb703e0882e75698f33fa847defa8f3550dffeb6" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="333abe25b3751b05f38860432a82d82672161454" upstream="rk33/mid/10.0/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="rk" revision="005b18bce43cf73e12b62ad9ed10187f7c083010" upstream="rk33/mid/6.0/develop_drm"/>
-  <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2" upstream="rk32/mid/6.0/develop"/>
-  <project name="rk/hardware/rk29/keymaster4" path="hardware/rockchip/keymaster4" remote="rk" revision="a59fe0731fc664baa842f0b03f9c7d3e906c0efb" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" remote="rk" revision="d14b84c4396580703f68e697a1bde92947afbf93" upstream="master"/>
-  <project name="rk/hardware/rk29/libgraphicpolicy" path="hardware/rockchip/libgraphicpolicy" remote="rk" revision="deca46dbd76d00c4b1eeca02c2f20c92282dcc36" upstream="develop"/>
-  <project name="rk/hardware/rk29/libhwjpeg" path="hardware/rockchip/libhwjpeg" remote="rk" revision="3e36718376d36f9689a2fb106b3af02957361139" upstream="master"/>
-  <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="68e274cd748d1d0e0dcd52a3ead0ee7cb64819b1" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" remote="rk" revision="c591424c9c90a115d5498a19551fa40fb79bab81" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="c493d4d309ed3fcfdf4338d660462255aa3e50af" upstream="rk32/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/lights_aidl" path="hardware/rockchip/light_aidl" remote="rk" revision="f1f61e6eeefef0b0225c4bf3c619c111bb4124a3" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/mpi-mmz" path="hardware/rockchip/libmpimmz" remote="rk29" revision="e504f0ed75acc2a76d3372225f572d2d1707cce1" upstream="master"/>
-  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="0539660452f9135f9982923bf9c4ef36b0e96ff2" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/optee" path="hardware/rockchip/optee" remote="rk" revision="bf15f7dcc437ce734553a13d1f46168b6a3c9c05" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/power_aidl" path="hardware/rockchip/power_aidl" remote="rk" revision="2ef641eca0518dbcafa465d461e0c1162cffb157" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="1ce41c27f5e3c0ca5f099a43a59746493234a3cb" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/hardware/rk29/swiftshader" path="hardware/rockchip/swiftshader" remote="rk" revision="654ef138c2357a596a16b7453a08627232a4d40c" upstream="rk33/mid/11.0/dev"/>
-  <project name="rk/hardware/rk29/weaver" path="hardware/rockchip/weaver" remote="rk" revision="982c2083f1936253a62c55287a3dfde46c3f6c2d" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/hardware/rk35/einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="rk" revision="67c46c00adab272942b0775d7647b19b19adff17" upstream="rk35/mid/11.0/develop"/>
-  <project name="rk/hardware/rk35/helper" path="hardware/rockchip/helper" remote="rk" revision="8ebaeb1c03ace90f8c5fc8caa5a7ebf8c19fc229" upstream="develop"/>
-  <project name="rk/hardware/rk35/hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="rk" revision="c28d4707687175d487a5f9a6a14cf06160059497" upstream="rk35/mid/11.0/develop"/>
-  <project name="rk/packages/apps/DisplayAdjust" path="packages/apps/DisplayAdjust" remote="rk" revision="6835d12dd8b7812fe432cff5d01f6ebfd26349bc" upstream="master"/>
-  <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab" upstream="rk33/mid/10.0/develop"/>
-  <project name="rk/platform/external/io" path="external/io" remote="rk" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b" upstream="rk33/mid/10.0/develop"/>
-  <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="f66254d9d2eef0fa145a8639a128a8e61f6b6d37" upstream="rk33/mid/10.0/develop"/>
-  <project name="rk/platform/external/rk-pcba-test" path="bootable/recovery/pcba_core" remote="rk" revision="1f861fa5eb09424ac0b78348b13b03ea664db000" upstream="rk33/mid/11.0/recovery"/>
-  <project name="rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="3f953515576dab722325a5cb10b551adb52c77b4" upstream="develop-next"/>
-  <project name="rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="3c088fdaf70185c3217b4c3fba6aef62b0e3700b" upstream="rk33/mid/11.0/develop"/>
+  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="6b47ad2607b5a3fad755bc78e9f0b527e4492e66" upstream="rk33/mid/11.0/develop"/>-->
+  <project name="rk_hardware_libgralloc_bifrost" path="hardware/rockchip/libgralloc/bifrost" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_libgralloc_midgard" path="hardware/rockchip/libgralloc/midgard" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_libgralloc_utgard_new" path="hardware/rockchip/libgralloc/utgard" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_audio" path="hardware/rockchip/audio" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_bootctrl" path="hardware/rockchip/bootctrl" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_fastbootd" path="hardware/rockchip/fastbootd" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_gatekeeper" path="hardware/rockchip/gatekeeper" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_hdmicec" path="hardware/rockchip/hdmicec" remote="tobrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_jpeghw" path="hardware/rockchip/jpeghw" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_keymaster4" path="hardware/rockchip/keymaster4" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_libbaseparameter" path="hardware/rockchip/libbaseparameter" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_libgraphicpolicy" path="hardware/rockchip/libgraphicpolicy" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_libhwjpeg" path="hardware/rockchip/libhwjpeg" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_libiep" path="hardware/rockchip/libiep" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_libmemtrack" path="hardware/rockchip/libmemtrack" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_librkvpu" path="hardware/rockchip/librkvpu" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_lights_aidl" path="hardware/rockchip/light_aidl" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_mpi-mmz" path="hardware/rockchip/libmpimmz" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_omx_il" path="hardware/rockchip/omx_il" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_optee" path="hardware/rockchip/optee" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_power_aidl" path="hardware/rockchip/power_aidl" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_sensor" path="hardware/rockchip/sensor" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_swiftshader" path="hardware/rockchip/swiftshader" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk29_weaver" path="hardware/rockchip/weaver" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk35_einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk35_helper" path="hardware/rockchip/helper" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_hardware_rk35_hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_packages_apps_DisplayAdjust" path="packages/apps/DisplayAdjust" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_external_abc" path="external/abc" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_external_io" path="external/io" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_external_ntfs-3g" path="external/ntfs-3g" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_external_rk-pcba-test" path="bootable/recovery/pcba_core" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_external_usb_modeswitch" path="external/usb_modeswitch" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_system_rk_tee_user" path="external/rk_tee_user" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <!--<project name="rk_platform_vendor_Widevine" path="vendor/widevine" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="0ca2dd7899bccefdd5c1ef1527eec7de5d5e7c61" upstream="rk33/mid/11.0_express/develop"/>
-  <project clone-depth="1" name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="0f36b37d6a15cee755a4d6d2fc0a614396755693" upstream="rk33/mid/11.0_express/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="d638756c25417b375f94cf9d107b71e70d5e781e" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="fc55119fd20b238142aa46a58a47631465ff37a5" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="07ada3e84fcb3d64151978725456fe2d250bf1a8" upstream="master"/>
-  <project name="rk/rkst" path="rkst" remote="rk" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="rk32/mid/6.0/develop"/>
-  <project name="rk/rktoolbox" path="external/rktoolbox" remote="rk" revision="1ffae9357a70a96a526e38b94579d9dec373c7c5" upstream="rk33/mid/10.0/develop"/>
+  <project clone-depth="1" name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="0f36b37d6a15cee755a4d6d2fc0a614396755693" upstream="rk33/mid/11.0_express/develop"/>-->
+  <project name="rk_platform_vendor_rockchip_common" path="vendor/rockchip/common" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rk_platform_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rkbin" path="rkbin" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rkst" path="rkst" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="rktoolbox" path="external/rktoolbox" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="df7cd88e8839bdf864700fc7d302b678a604b943" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e" upstream="refs/tags/android-11.0.0_r37"/>
