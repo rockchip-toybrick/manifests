@@ -231,7 +231,7 @@
   <project groups="pdk" name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines" revision="ad50cea75fbf4cf484d5016efb8f1295d748c1e7" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/ksoap2" path="external/ksoap2" revision="35e0997508e99f0a5ca60de58a0f1a9df891698e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libaom" path="external/libaom" revision="e35b54d87231c56626f73f9d5d2146af6df35c8c" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/libavc" path="external/libavc" remote="aosp" revision="29132eba8ca8e53ba4dbbcfd37614eba045269a2" upstream="android-11-sec-2021-0605"/>
+  <project name="platform_external_libavc" path="external/libavc" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/libbackup" path="external/libbackup" revision="2141bb48d626369da6313aac930939b8faa83226" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libbrillo" path="external/libbrillo" revision="9e260fa59a43bc04701216c51053922d445fefd8" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/libcap" path="external/libcap" revision="7e0408acfb03a3119541557b82ba3f8d28d5e78e" upstream="refs/tags/android-11.0.0_r37"/>
@@ -410,7 +410,7 @@
   <project groups="pdk" name="platform/external/unicode" path="external/unicode" revision="e6d48226be7fee655a30c8dd7847dfb5d02153d8" upstream="refs/tags/android-11.0.0_r37"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine" revision="37a0007888efb1fc8b4d360d4e0560c03e55e5eb" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="25c3c32f40307e211630744ca03545c5bcaeb5fa" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/v8" path="external/v8" remote="aosp" revision="6df6c8a638602fa99c1a59d629b28125a55d4c66" upstream="android-11-sec-2021-0605"/>
+  <project name="platform_external_v8" path="external/v8" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference" revision="df6d6b6e5280520b096fb1f565b758948bc872ee" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/virglrenderer" path="external/virglrenderer" revision="420c9e3d834eb6698c821a6d023a0dad63cc8b7e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/vixl" path="external/vixl" revision="c150fd7455f6f3520efe35ac6b24854ecc5b3a70" upstream="refs/tags/android-11.0.0_r37"/>
@@ -423,7 +423,7 @@
   <project groups="pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="0023658c1130d5bfe1b55ec9bb758c713a6216d4" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="5b8ffe46a0fbf17592104c3a7d85a1074b868bcc" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="661e84967bb2600427cb65715caeeba112b94244" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="667416e05bd767fa430c044d7d1206a063f87eb8" upstream="rk33/mid/11.0/develop"/>
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/external/wycheproof" path="external/wycheproof" revision="1b808efc7c903b0eaae0da8f6788f55513e4e339" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="44d7e4d00ef6da63a75bf3a4f9296872cc4d2ac1" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="51923a98b0af813e3db6a027d64471ee8710a4f2" upstream="refs/tags/android-11.0.0_r37"/>
@@ -513,16 +513,16 @@
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="eb5f9ca7b8d8ff768a322a851148bcc0d8617cec" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="f54200d83880c1cc4d501e4cb5b4313eb7fc0b9a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="670e1636b464b4c7b0ec326a983408d75c2ca4ef" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ab14daba010c9306faa76b83bd3b2170e6055259" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk-fs" name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="2ceb86e2ed3397d17b208c224ff72297eb28cc1a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="f8003ae4221371387dad7626ad24b417ff3cdae0" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk-fs" name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="cebfa6261715dc8c934b473b7a2d1404545c3945" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="87b64112f37050b207a70f5ad26b6a8cccc80f05" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="cd5e0e37c14102d69baae4d98538d6c5f204f5a3" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk-fs" name="platform_packages_apps_Music" path="packages/apps/Music" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="954665bfbf1a3190ce35ef10ed20b40da78b70d8" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="ad67ab3d3a3977f12b20db0a284831e5b780e2f2" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="ee2d2f15cb5458756c4a882c5a2cd9a77b8b1034" upstream="refs/tags/android-11.0.0_r37"/>
@@ -536,7 +536,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="a3a5aae9e4e7bff5aab0ef006b6ac78d0dea80af" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="c7952bab7ab6127649d0f4e2d9d67f4af014fb82" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="57ba8db9d456de7ce36303676d5238021c96be50" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project groups="pdk-fs" name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="0d22308f11d386929ad26fb907bdb500849af4e5" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="f3d46ceeecd71c5555939f32643c18c78ae7909f" upstream="refs/tags/android-11.0.0_r37"/>
@@ -651,7 +651,7 @@
   <project groups="pdk" name="platform/system/apex" path="system/apex" revision="22613b7917e90d3f75cbd107bc49f82895381388" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/bpf" path="system/bpf" revision="81b26a8a969c9d25676f90597079b7ab8f8576b4" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/bpfprogs" path="system/bpfprogs" revision="df5007df690cd26579d0c47e544b6dc91a38dfcd" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/bt" path="system/bt" remote="aosp" revision="93910724e7a99f8723317dfd8485462be10aab28" upstream="android-11-sec-2021-0605"/>
+  <project name="platform_system_bt" path="system/bt" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="71863ee86e948f9c44ea00d540507147af07b15e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="536dd3ea4cb49647d72b678a7f365f13b7d97d98" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="6636cc1341a55995e1e1f673c9e60c6b5af00410" upstream="refs/tags/android-11.0.0_r37"/>
