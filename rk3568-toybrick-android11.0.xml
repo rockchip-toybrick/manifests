@@ -657,7 +657,7 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="536dd3ea4cb49647d72b678a7f365f13b7d97d98" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="6636cc1341a55995e1e1f673c9e60c6b5af00410" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="d96bd96c699461682699628ba6bf604bf36f011a" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/core" path="system/core" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_system_core" path="system/core" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="b35a59eb33bb335baddf367208f5c684b66d3c85" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="dd73a85fb461d6b6732fed1096ebd7b3e4619691" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="353bd5faa73121b77d7ca80ec3d71e0119898222" upstream="refs/tags/android-11.0.0_r37"/>
