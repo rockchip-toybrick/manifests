@@ -596,7 +596,7 @@
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="cfba83229ba83f9bc058af952916e1b2db273714" upstream="refs/tags/android-11.0.0_r37"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" revision="dc6751d5dd6ebc7c5e045875543c2ecd0647e9a8" upstream="refs/tags/android-11.0.0_r37"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="595c79548d1e478b36b262b4357fcaa62571cd71" upstream="refs/tags/android-11.0.0_r37"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="6b9d3ccaf17b775731e9fe8fa91fef547a78d629" upstream="refs/tags/android-11.0.0_r37"/>
+  <!--<project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="6b9d3ccaf17b775731e9fe8fa91fef547a78d629" upstream="refs/tags/android-11.0.0_r37"/>-->
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="485b2e9fd3c20b96cbd43ab30d189ca989d7056b" upstream="refs/tags/android-11.0.0_r37"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="0906008e00e8b77d6b3aa4cb197e76e6817d8841" upstream="refs/tags/android-11.0.0_r37"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" revision="42973709abd84594a62443b8dd2f905e25b3212c" upstream="refs/tags/android-11.0.0_r37"/>
