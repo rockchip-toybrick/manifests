@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--<remote fetch="https://android.googlesource.com" name="aosp"/>-->
-  <remote fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP" name="aosp"/>
+  <!--<remote fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP" name="aosp"/>-->
+  <remote fetch="git://mirrors.ustc.edu.cn/aosp/" name="aosp"/>
   <remote fetch="." name="toybrick"/>
   
   <default remote="aosp" revision="refs/tags/android-11.0.0_r37" sync-j="4"/>
@@ -674,12 +675,12 @@
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf" revision="b200cfdb6e0a8109b69a9a583bd23f91e629e948" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/linkerconfig" path="system/linkerconfig" revision="38834333083f213d712b9e4e9b5de2b5b76c1c32" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="257b08782222c24ae6c85cc35854cdb2757e066d" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/memory/libion" path="system/memory/libion" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_system_memory_libion" path="system/memory/libion" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo" revision="69298f797fdf0b580021befec2c4c6553fa4b5f0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/libmemtrack" path="system/memory/libmemtrack" revision="e3d7988449a9579bfced8a4fa8355de36ee95d64" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/libmemunreachable" path="system/memory/libmemunreachable" revision="0c0852b75771a8b36bbcb8c816d8658aa92b9b45" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/memory/lmkd" path="system/memory/lmkd" revision="140385d3a0263d145ef46edd78dbd860c2eba912" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/netd" path="system/netd" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_system_netd" path="system/netd" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="b9bb109ef20f689cf26db76036ef8a22ae6d0a3d" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/nvram" path="system/nvram" revision="559fb5ba33c4288d79545c7abdd6d7368c0a1ce0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="e5c1348c5b1e0b956ef25a11406cb3eb0a0b83b6" upstream="refs/tags/android-11.0.0_r37"/>
@@ -697,7 +698,7 @@
   <project groups="pdk" name="platform/system/tools/sysprop" path="system/tools/sysprop" revision="6372fde5de60e3062c01f796b97820ea30c0de4e" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/tools/xsdc" path="system/tools/xsdc" revision="0be301d6033204d4668b2c26f84fd851dd7cf068" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="c71939df6ae98204c94e141e79a33df217d568af" upstream="refs/tags/android-11.0.0_r37"/>
-  <project name="platform/system/vold" path="system/vold" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="platform_system_vold" path="system/vold" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="platform/test/app_compat/csuite" path="test/app_compat/csuite" revision="5c86fc9b9b042528f9af6ea7c53c22f892ed3b2f" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="vts,projectarch,pdk" name="platform/test/framework" path="test/framework" revision="c44480ac572c0eeaded19fa1c70833fcac21bfd0" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/test/mlts/benchmark" path="test/mlts/benchmark" revision="13abfc2f14d03f8e606528f42700f761667da302" upstream="refs/tags/android-11.0.0_r37"/>
