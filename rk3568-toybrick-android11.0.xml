@@ -26,7 +26,13 @@
   <project groups="pdk" name="device/generic/x86" revision="7a73a1f8e9fd691cb8f45aa9de303f3c39c3837a" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv" revision="68c3592edaf1a0849a3a199b1a1f805093c783a9" upstream="refs/tags/android-11.0.0_r37"/>-->
-  <project name="device_rockchip_common" path="device/rockchip/common" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <project name="device_rockchip_common" path="device/rockchip/common" remote="toybrick" revision="develop-11.0" upstream="develop-11.0">
+      <copyfile src=".classpath" dest=".classpath"/>
+      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
+      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
+      <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
+      <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
+  </project>
   <project name="device_rockchip_rk356x" path="device/rockchip/rk356x" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <!--<project groups="pdk" name="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34" upstream="refs/tags/android-11.0.0_r37"/>-->
   <!--<project name="docs/android" path="RKDocs/android" remote="rk" revision="665b4cb44f348e30787f2b119fe30b6016adcdb6" upstream="rk33/mid/android-11.0"/>
