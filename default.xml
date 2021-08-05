@@ -749,9 +749,9 @@
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="16a8d126c8bf9fb8c6ed4c7f2ed20676fca848c5" upstream="rk32/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3326" path="device/rockchip/rk3326" remote="rk" revision="7ffda1ec5596faa9cb16c0cdc1b88cde7f6d3406" upstream="rk33/mid/11.0/develop"/>
   <project name="rk/device/rockchip/rk3328" path="device/rockchip/rk3328" remote="rk" revision="6e131dc45e7ad524df539830d5ce93afd1b87779" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" remote="rk" revision="588642fa1a4dba5db81e8cdd4592ace66fb44fcf" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="0092ad80af324ec28d808a575927b552660d0035" upstream="rk33/mid/11.0/develop"/>
-  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="6b47ad2607b5a3fad755bc78e9f0b527e4492e66" upstream="rk33/mid/11.0/develop"/>-->
+  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" remote="rk" revision="588642fa1a4dba5db81e8cdd4592ace66fb44fcf" upstream="rk33/mid/11.0/develop"/> -->
+  <project name="device_rockchip_rk3399" path="device/rockchip/rk3399" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
+  <!--<project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="6b47ad2607b5a3fad755bc78e9f0b527e4492e66" upstream="rk33/mid/11.0/develop"/>-->
   <project name="rk_hardware_libgralloc_bifrost" path="hardware/rockchip/libgralloc/bifrost" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_libgralloc_midgard" path="hardware/rockchip/libgralloc/midgard" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <project name="rk_hardware_libgralloc_utgard_new" path="hardware/rockchip/libgralloc/utgard" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
