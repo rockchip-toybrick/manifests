@@ -7,7 +7,7 @@
   
   <default remote="aosp" revision="refs/tags/android-11.0.0_r37" sync-j="4" sync-c="true"/>
   
-  <!--<project name="RKTools" remote="rk" revision="aec9ba12a52b0cc63043536e02bca15a0150d71e" upstream="rk33/mid/develop10.0"/>-->
+  <project name="RKTools" remote="toybrick" revision="develop-11.0" upstream="develop-11.0"/>
   <!--<project groups="pdk-cw-fs,pdk" name="device/common" revision="6b398d7f47aae5d42d126c49f0879fa20d2ca93b" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="b13c00e79c8bc1b96b62a3fc78cee075395f6271" upstream="refs/tags/android-11.0.0_r37"/>
