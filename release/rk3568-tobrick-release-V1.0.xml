@@ -5,6 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-11.0.0_r37" sync-j="4"/>
   
+  <project dest-branch="develop-11.0" name="RKTools" remote="toybrick" revision="a0c81c8db8ac59dc636229a2f3a51964dcbbe0ae" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="toybrick" revision="2192a9ecf669a781886f0a927689f8c2c7b2ebad" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="device_rockchip_common" path="device/rockchip/common" remote="toybrick" revision="e7e32636471405eb5af250e5e0574deb668d601f" upstream="develop-11.0">
     <copyfile dest=".classpath" src=".classpath"/>
