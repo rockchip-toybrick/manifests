@@ -756,7 +756,7 @@
   <project dest-branch="develop-11.0" name="rk_platform_system_rk_tee_user" path="external/rk_tee_user" remote="toybrick" revision="31b37a93fedf223ff9887be3f2461d0d271694a5" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="rk_platform_vendor_rockchip_common" path="vendor/rockchip/common" remote="toybrick" revision="83ed2f5ddd08c83723795c6d1c5dcc4de51f6a88" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="rk_platform_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="toybrick" revision="3b2611fbe1954385f1ab5146084b1224c56318a7" upstream="develop-11.0"/>
-  <project dest-branch="develop-11.0" name="rkbin" remote="toybrick" revision="1dfac636bf33b6693768ee59c94b740232da4bea" upstream="develop-11.0"/>
+  <project dest-branch="develop-11.0" name="rkbin" remote="toybrick" revision="07ada3e84fcb3d64151978725456fe2d250bf1a8" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="rkst" remote="toybrick" revision="97ef3cfc2380e233cd5fe8de008a0644d584b6fc" upstream="develop-11.0"/>
   <project dest-branch="develop-11.0" name="rktoolbox" path="external/rktoolbox" remote="toybrick" revision="fd88a0ed14c013cf65b9e53cb30b935f0836c215" upstream="develop-11.0"/>
   <project name="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-11.0.0_r37"/>
